@@ -60,7 +60,7 @@ export function Projects() {
           className="text-gray-400 hover:underline mt-4 inline-block"
           title="SQL icons"
         >
-          SQL icons created by Aswell Studio - Flaticon
+          Icons created by Aswell Studio - Flaticon
         </a>
       </main>
 

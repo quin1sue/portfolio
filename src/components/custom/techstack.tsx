@@ -1,23 +1,23 @@
-import { FaPython, FaJs, FaReact, FaServer } from "react-icons/fa";
-import { SiDjango, SiTypescript, SiNextdotjs, SiPostgresql, SiMysql, SiPrisma, SiVercel, SiCloudflare, SiPandas } from "react-icons/si";
+import { FaPython, FaJs, FaReact } from "react-icons/fa";
+import {  SiTypescript, SiNextdotjs, SiPostgresql, SiMysql, SiPrisma, SiShadcnui, SiVercel, SiCloudflare, SiSupabase, SiHono } from "react-icons/si";
 import { FaTools } from "react-icons/fa";
 
 export function TechStack() {
   const stacks = [
     { name: "Python", icon: <FaPython  /> },
-    { name: "Django", icon: <SiDjango  /> },
-    { name: "Pandas", icon: <SiPandas  /> },
     { name: "Cheerio", icon: <FaTools  /> }, 
     { name: "TypeScript", icon: <SiTypescript  /> },
     { name: "JavaScript", icon: <FaJs  /> },
     { name: "React", icon: <FaReact  /> },
-    { name: "Hono.js", icon: <FaServer  /> }, 
+    { name: "Hono.js", icon: <SiHono  /> }, 
     { name: "Prisma", icon: <SiPrisma  /> },
     { name: "PostgreSQL", icon: <SiPostgresql  /> },
     { name: "MySQL", icon: <SiMysql  /> },
     { name: "Cloudflare", icon: <SiCloudflare  /> },
     { name: "Vercel", icon: <SiVercel  /> },
     { name: "Next.js", icon: <SiNextdotjs  /> },
+    {name: "Supabase", icon: <SiSupabase />},
+    {name: "ShadcnUI", icon: <SiShadcnui />}
   ];
 
   return (
